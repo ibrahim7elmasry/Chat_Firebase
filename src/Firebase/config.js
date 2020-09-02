@@ -1,6 +1,5 @@
-import Firebase from 'firebase';
-import firebase from 'react-native-firebase';
-
+import firebase from 'firebase';
+ 
 const firebaseConfig = {
     apiKey : 'AIzaSyCAe4zvXRmyx3PgI2o2KtEgI1kFZOUMdLA',
     databaseURL:'https://chat1-7e9bd.firebaseio.com',
