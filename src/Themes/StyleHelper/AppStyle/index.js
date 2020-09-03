@@ -2,9 +2,7 @@
 // import * as color from "../colors";
 //  import { smallDeviceHeight } from '../../Constants'
 
-// export const { height: deviceHeight, width: deviceWidth } = Dimensions.get(
-//   "window"
-// );
+// // export const { height: deviceHeight, width: deviceWidth } = Dimensions.get("window");
 
 // const getFieldDimesions = () => {
 //   if (deviceHeight > smallDeviceHeight) {

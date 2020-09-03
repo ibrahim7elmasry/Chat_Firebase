@@ -1,11 +1,25 @@
 import React from 'react'
-import { SafeAreaView,View, Text } from 'react-native'
-
+import { SafeAreaView,View, Text , TextInput} from 'react-native'
+import { globalStyle } from '../../Themes';
+import Logo from '../../Components/Logo';
+import FloatingLabelInput from '../../Components/FloatingLabel';
 
 const Login = ({navigation}) =>{
         return(
-            <SafeAreaView style={{flex:1}}>
-            <Text onPress={()=> navigation.navigate('SignUP')} style={{ color:'black'}}> Login Screen</Text>
+            <SafeAreaView style={[globalStyle ,{flex:1, backgroundColor:'white'}]}>
+                <View style={[globalStyle.containerCentered]}>
+                  <Logo />
+                </View>
+
+               <View style={{justifyContent:'center', alignItems:'center'}}>
+                {/* <FloatingLabelInput
+                        label={("FirstName")}
+                        /> */}
+
+                       
+               </View>
+                
+                 
         </SafeAreaView>
         )
 }
